@@ -1,8 +1,27 @@
 aid: sleepnumber
-name: Sleepnumber
-description: 'Sleepnumber is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sleepnumber.png
+name: Sleep Number
+description: 'Sleep Number Corporation (NASDAQ: SNBR) designs, manufactures, and retails
+  smart adjustable-firmness beds and sleep-wellness products, sold through an omnichannel
+  US retail model. Its Sleep Number 360 smart beds run the proprietary SleepIQ operating
+  system, which captures biometric sleep data each night and returns actionable insights
+  to improve sleep health. Sleep Number does not publish a public developer API or
+  developer portal; the SleepIQ platform is a closed, undocumented backend consumed
+  only by the first-party mobile and web apps. The community has reverse-engineered
+  unofficial SleepIQ client libraries (Python, Go, PHP), but these are not first-party
+  and are not endorsed by Sleep Number. This profile was surfaced as a legacy portfolio
+  lead of Norwest Venture Partners and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/sleepnumber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Sleep
+- Health
+- Wellness
+- Smart Home
+- IoT
+- Consumer Electronics
+- Retail
+- Mattress
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sleepnumber.com
+  url: https://www.sleepnumber.com
+- type: Support
+  url: https://support.sleepnumber.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.sleepnumber.com/pages/legal-privacy-policy
+- type: TermsOfService
+  url: https://www.sleepnumber.com/pages/terms-of-use
+- type: DomainSecurity
+  url: security/sleepnumber-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
