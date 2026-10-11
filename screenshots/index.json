@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "sleepnumber",
+    "captured_at": "2026-10-11T192716",
+    "source_url": "https://www.sleepnumber.com",
+    "source_type": "Website",
+    "file": "sleepnumber-2026-10-11T192716.png",
+    "bytes": 433274,
+    "capture": "playwright-local"
+  }
+]
